@@ -2,7 +2,7 @@
 document.querySelector('input[type="button"]').
 	addEventListener("click", function () {
 		const colorSelect = document.getElementById("colorSelect");
-		if(colorSelect.selectIndex !== -1){
+		if(colorSelect.selectedIndex !== -1){
 			colorSelect.options[colorSelect.selectedIndex].remove();
 
 		}
